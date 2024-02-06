@@ -1,0 +1,12 @@
+name: 'HTML Preview Action'
+run-name: ${{ github.actor }} is testing the next CICD Newsletter on GitHub Actions 🚀
+on: [pull_request]
+
+jobs:
+  html_preview:
+    runs-on: ubuntu-latest
+    name: HTML Preview
+    steps:
+      - uses: actions/checkout@v2
+      - name: Get HTML preview link
+        uses: ./

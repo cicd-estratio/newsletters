@@ -9,7 +9,7 @@ inputs:
   html_file:
     description: 'The HTML file you want to preview'
     required: true
-    default: 'NL16.html'
+    default: 'NL17.html'
   gh_token:
     description: 'GitHub Token'
     required: true

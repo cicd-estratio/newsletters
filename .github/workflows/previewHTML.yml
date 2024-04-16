@@ -1,6 +1,7 @@
 name: 'HTML Preview Action'
 run-name: ${{ github.actor }} is testing the next CICD Newsletter on GitHub Actions 🚀
 on: [pull_request]
+permissions: write-all
 
 jobs:
   html_preview:
